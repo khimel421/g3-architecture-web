@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Josefin+Sans:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Raleway:wght@300;700;900&family=Rubik:wght@300;400;500&family=Work+Sans:wght@400;700;800&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Epilogue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+header{
+    background-color: #FFF4E7;
+    padding: 0px 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    color: #424242;
+    font-weight: 400;
+}
+
+.banner-container{
+    margin-top: 100px;
+}
+
+.banner-content{
+    max-width: 862px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner-title{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.banner-desc{
+    font-size: 1rem;
+    color: #424242;
+    margin: 20px 0px;
+}
+
+.banner-img{
+    margin-top: 50px;
+}
+
+.banner-img img{
+    width: 100%;
+}
