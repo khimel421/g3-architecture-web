@@ -11,6 +11,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+section{
+    margin-top: 100px;
+}
+
 .primary-btn{
     background-color: #FF900E;
     color: white;
@@ -32,7 +36,7 @@ nav{
     align-items: center;
 }
 
-.nav-title{
+.section-title{
     font-size: 2.8rem;
     font-weight: bold;
 }
@@ -56,7 +60,7 @@ nav li a {
 }
 
 .banner-container{
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 
 .banner-content{
@@ -89,11 +93,15 @@ main{
     margin: 0 auto;
 }
 
+.mixed{
+    font-size: 45px;
+}
+
 .team-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 700px;
+    /* height: 700px; */
     gap: 20px;
     padding: 0px 100px; 
 }
@@ -113,18 +121,103 @@ main{
     padding: 0px 40px;
 }
 
-.team-para{
+.para{
     font-size: 1rem;
+    margin-top: 10px;
     margin-bottom: 30px;
+    color: #727272;
 }
+
+.facts-container{
+    padding: 0px 100px; 
+}
+
+.facts-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 15px
+}
+
+.sponsor-header{
+    text-align: center;
+    margin-top: 100px;
+}
+.sponsor-img-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.sponsor-img{
+    width: 165px;
+}
+
+.copy-right{
+    background-color: #FFF4E7;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.features-container{
+    display: flex;
+    gap: 30px;
+    padding: 0px 100px;
+}
+
+.card{
+    /* border: 1px solid black; */
+    padding: 15px  30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features-img{
+    width: 700px;
+    /* height: 80%; */
+}
+    
 
 @media screen and (max-width: 576px) {
     header{
         padding:20px 20px
     }
 
-    nav{
+    nav , .team-container, .sponsor-img-container, .facts-box{
         flex-direction: column;
         gap: 20px;
+    }
+
+
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
+
+    .team-content{
+        padding: 0px;
+    }
+
+    .sponsor-img-container{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .copy-right{
+        text-align: center;
     }
 }
